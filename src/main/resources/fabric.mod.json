@@ -3,21 +3,14 @@
 	"id": "creativeinventoryplus",
 	"version": "${version}",
 	"name": "CreativeInventoryPlus",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A vanilla+ mod to enhance the creative experience",
 	"authors": [
-		"Me!"
+		"MoneoDev"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "CC BY-SA 4.0",
 	"icon": "assets/creativeinventoryplus/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"com.moneodev.CreativeInventoryPlus"
-		],
 		"client": [
 			"com.moneodev.CreativeInventoryPlusClient"
 		]
@@ -34,8 +27,5 @@
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

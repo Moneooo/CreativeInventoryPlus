@@ -1,10 +1,16 @@
 package com.moneodev;
 
+import com.moneodev.hud.HotbarPreviewRenderer;
+import com.moneodev.input.InputHandler;
 import net.fabricmc.api.ClientModInitializer;
 
 public class CreativeInventoryPlusClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
+		InputHandler.init();
+
+		// You could also register your renderer here, or elsewhere
+		HotbarPreviewRenderer.init();
 	}
+
 }
