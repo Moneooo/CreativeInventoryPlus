@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "creativeinventoryplus",
+  "version": "${version}",
+  "name": "CreativeInventoryPlus",
+  "description": "A vanilla+ mod to enhance the creative experience. ",
+  "authors": [
+    "MoneoDev"
+  ],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/creativeinventoryplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.MoneoDev.CreativeInventoryPlusClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "creativeinventoryplus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
