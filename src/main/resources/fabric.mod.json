@@ -7,7 +7,7 @@
   "authors": [
     "MoneoDev"
   ],
-  "license": "All-Rights-Reserved",
+  "license": "CC BY-SA",
   "icon": "assets/creativeinventoryplus/icon.png",
   "environment": "client",
   "entrypoints": {
